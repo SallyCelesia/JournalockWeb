@@ -1,0 +1,53 @@
+{
+  "journals": [
+    {
+      "year": 2026,
+      "months": {
+        "February": {
+          "day_17": {
+            "date": "February 17, 2026",
+            "entries": {
+              "id": 1771438655442,
+              "text": [
+                "Y3JlYXRlZCB0aGUgY29tcGxldGUgd2Vic2l0ZSBmb3IgcmVzdW1lIHByb2plY3QxNw==",
+                "Y2xlYW5lZCBhbmQgc3RydWN0dXJlZCB0aGUgY29kZTE3",
+                "UmVkdWNlZCB0aGUgY29tcGxleGl0eSBvZiBlbmNyeXB0aW9uMTc=",
+                "Sm91cm5hbCBFbnRyeSBvZiBGZWJydWFyeSAxNwpTZWNvbmQgam91cm5hbCBlbnRyeSBvZiBGZWJydWFyeSAxNzE3"
+              ]
+            },
+            "isEncrypted": true,
+            "passkeyHash": "$2b$10$VLxCppxetgEqebSEqpZV0eEYstqtIkkCBEmYs/dcQ1sLmLmH.qkrW",
+            "lastModified": "2026-02-18T18:17:35.544Z"
+          },
+          "day_16": {
+            "date": "February 16, 2026",
+            "entries": {
+              "id": 1771438560829,
+              "text": [
+                "Journal Entry of February 16",
+                "Second journal entry of February 16"
+              ]
+            },
+            "isEncrypted": false,
+            "passkeyHash": "$2b$10$0eKCgAWv0M1B80erBB3tDuT7xSUAVgbU3Xaq05wqQYa6ree8h2y6O",
+            "lastModified": "2026-02-18T18:16:00.932Z"
+          }
+        },
+        "March": {
+          "day_17": {
+            "date": "March 17, 2026",
+            "entries": {
+              "id": 1771351763750,
+              "text": [
+                "lorum ipsum month data created"
+              ]
+            },
+            "isEncrypted": false,
+            "passkeyHash": null,
+            "lastModified": "2026-02-17T18:09:23.758Z"
+          }
+        }
+      }
+    }
+  ]
+}

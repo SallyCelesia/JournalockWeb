@@ -4,7 +4,7 @@
   "description": "Backend server for journal web application",
   "main": "server.js",
   "scripts": {
-  "start": "node server.js"
+  "start": "node Backend/server.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

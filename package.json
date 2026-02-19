@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Backend server for journal web application",
   "main": "server.js",
-  "scripts": {},
+  "scripts": {
+  "start": "node server.js"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",

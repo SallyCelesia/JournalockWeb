@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 });
 
 /* ==== ROUTES ==== */
-app.use("/api",journalRouter);
+app.use("https://journalocksecuredweb.onrender.com/api",journalRouter);
 
 /* ==== SERVER START ==== */
 app.listen(PORT, "0.0.0.0", () => {

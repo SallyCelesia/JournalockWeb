@@ -23,7 +23,7 @@ const Entry = () => {
 
   const fetchEntryData = async () => {
     try {
-      const response = await fetch(`https://journal-backend.onrender.com/api/entries/${year}/${month}/${day}`);
+      const response = await fetch(`https://journalocksecuredweb.onrender.com/api/entries/${year}/${month}/${day}`);
       const data = await response.json();
       
       if (data.success && data.entry && data.entry.entries) {
@@ -80,7 +80,7 @@ const Entry = () => {
     setInputText("");
 
     try {
-      await fetch('https://journal-backend.onrender.com/api/entries', {
+      await fetch('https://journalocksecuredweb.onrender.com/api/entries', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -116,7 +116,7 @@ const Entry = () => {
     setHasPasskey(false);
 
     try {
-      await fetch(`https://journal-backend.onrender.com/api/entries/${year}/${month}/${day}`, {
+      await fetch(`https://journalocksecuredweb.onrender.com/api/entries/${year}/${month}/${day}`, {
         method: 'DELETE'
       });
     } catch (error) {
@@ -146,7 +146,7 @@ const Entry = () => {
         setEdit(false);
         setHasPasskey(true);
 
-        await fetch('https://journal-backend.onrender.com/api/entries', {
+        await fetch('https://journalocksecuredweb.onrender.com/api/entries', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -171,7 +171,7 @@ const Entry = () => {
     /* DECRYPT */
     else {
       try {
-        const verifyResponse = await fetch('https://journal-backend.onrender.com/api/verify-passkey', {
+        const verifyResponse = await fetch('https://journalocksecuredweb.onrender.com/api/verify-passkey', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -201,7 +201,7 @@ const Entry = () => {
         setInputText(combined);
         setEdit(true);
 
-        await fetch('https://journal-backend.onrender.com/api/entries', {
+        await fetch('https://journalocksecuredweb.onrender.com/api/entries', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -243,7 +243,7 @@ const Entry = () => {
     setEdit(false);
 
     try {
-      await fetch('https://journal-backend.onrender.com/api/entries', {
+      await fetch('https://journalocksecuredweb.onrender.com/api/entries', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
